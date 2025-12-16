@@ -32,7 +32,7 @@ Code for paper "Modality-Invariant Optical–SAR Image Registration using Hierar
 
 The main contents of the evaluation catalog are as follows:
 
-- `VIS-SAR/`：Dataset storage folder
+- `VIS_SAR/`：Dataset storage folder
 - `extract_feature.py`：Keypoint and Feature Description Extraction Script, Outputting `.mat` Files to the `feature` Folder
 - `match.py`：Extract the `.mat` files output by `extract_feature.py`, perform optical SAR image keypoint matching, and save the visualizations and metric results to the `result` folder.
 - `reproj.py`：Extract the `.mat` files output by `extract_feature.py`, perform optical SAR image registration, and save the visualization and metric results to the `result` folder.
