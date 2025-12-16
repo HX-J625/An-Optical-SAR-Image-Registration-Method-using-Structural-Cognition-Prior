@@ -42,8 +42,8 @@ The main contents of the evaluation catalog are as follows:
 ### Optical-SAR imagery
 
 <p>
-  <img src="fig/SAR.png" width="256" />
   <img src="fig/VIS.png" width="256" />
+  <img src="fig/SAR.png" width="256" />
 </p>
 
 ### Matching Visualization
