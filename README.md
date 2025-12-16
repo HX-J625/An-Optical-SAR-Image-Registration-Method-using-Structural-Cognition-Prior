@@ -1,54 +1,55 @@
 # Modality-Invariant Optical–SAR Image Registration using Hierarchical Structural Cognition Prior
 Code for paper "Modality-Invariant Optical–SAR Image Registration using Hierarchical Structural Cognition Prior"
 
-# 项目说明
+# Project Description
 
-## 环境与依赖
+## requirements
 
-- Python 版本：建议 Python `3.8+`
+- Python Version: Python `3.8+` is recommended.
 
-- 依赖安装：确保仓库根目录下已有 `requirements.txt`，然后执行：
+- Ensure that `requirements.txt` is present in the root directory of your repository, then execute:
 
 `pip install -r requirements.txt`
 
 ## checkpoints
-- `checkpoints`：提供了在 **OSdataset** 和 **WHU-SEN-City** 数据集下的原始训练权重。
+- `checkpoints`：The original training weights for the **OSdataset** and **WHU-SEN-City** datasets are provided.
 
-## 数据集
-- 文中进行实验的数据集为 **OSdataset** 和 **WHU-SEN-City**，图片大小均为 **512×512**。
-- OSdataset 下载链接：**（请在此处补充链接）**
-- WHU-SEN-City 下载链接：**（请在此处补充链接）**
+## Dataset
+- The datasets used in the experiments are **OSdataset** and **WHU-SEN-City**, with image dimensions of **512×512**.
+- Download link for OSdataset：
+- Download link for WHU-SEN-City：
+- The datasets should be placed separately in `VIS_SAR` under `Evaluation_OSdataset` and `Evaluation_WHU_SEN_City`.
 
-## 训练
-- `train.py`：用于权重训练的脚本，训练得到的权重和训练日志会存储至 `checkpoints` 文件夹下。
+## train
+- `train.py`：The script for training weights stores the trained weights and training logs in the `checkpoints` folder.
 
-## 评估
-- `Evaluation_OSdataset / Evaluation_WHU_SEN_City`：分别包含两个数据集下的评估文件，可进行：
-  - 关键点与特征描述提取
-  - 关键点匹配
-  - 影像配准
-  - 输出可视化结果与指标
+## Evaluation
+- `Evaluation_OSdataset / Evaluation_WHU_SEN_City`：Contains evaluation files for two separate datasets, enabling:
+  - Key Point and Feature Description Extraction
+  - Keyword Matching
+  - Image Registration
+  - Output visualizations and metrics
 
-评估目录内主要内容如下：
+The main contents of the evaluation catalog are as follows:
 
-- `VIS-SAR/`：数据集存储文件夹
-- `extract_feature.py`：关键点和特征描述提取脚本，输出 `.mat` 文件至 `feature` 文件夹
-- `match.py`：读取 `extract_feature.py` 输出的 `.mat` 文件，进行光 SAR 影像关键点匹配，并将可视化与指标结果保存至 `result` 文件夹
-- `reproj.py`：读取 `extract_feature.py` 输出的 `.mat` 文件，进行光 SAR 影像配准，并将可视化与指标结果保存至 `result` 文件夹
+- `VIS-SAR/`：Dataset storage folder
+- `extract_feature.py`：Keypoint and Feature Description Extraction Script, Outputting `.mat` Files to the `feature` Folder
+- `match.py`：Extract the `.mat` files output by `extract_feature.py`, perform optical SAR image keypoint matching, and save the visualizations and metric results to the `result` folder.
+- `reproj.py`：Extract the `.mat` files output by `extract_feature.py`, perform optical SAR image registration, and save the visualization and metric results to the `result` folder.
 
-## 配准示例
+## Registration Example
 
-### 光学-SAR影像
+### Optical-SAR imagery
 
 <p>
   <img src="fig/SAR.png" width="256" />
   <img src="fig/VIS.png" width="256" />
 </p>
 
-### 匹配可视化
+### Matching Visualization
 <img src="fig/match.png" width="512" />
 
-### 配准结果
+### Registration Visualization
 <img src="fig/reproj.png" width="256" />
 
 	
