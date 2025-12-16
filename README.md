@@ -3,7 +3,7 @@ Code for paper "Modality-Invariant Optical–SAR Image Registration using Hierar
 
 # Project Description
 
-## requirements
+## Requirements
 
 - Python Version: Python `3.8+` is recommended.
 
