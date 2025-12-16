@@ -5,11 +5,9 @@ Code for paper "Modality-Invariant Optical–SAR Image Registration using Hierar
 
 ## 环境与依赖
 
-### Python 版本
-- 建议 Python `3.8+`
+- Python 版本：建议 Python `3.8+`
 
-### 依赖安装
-确保仓库根目录下已有 `requirements.txt`，然后执行：
+- 依赖安装：确保仓库根目录下已有 `requirements.txt`，然后执行：
 
 ```bash
 pip install -r requirements.txt
