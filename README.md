@@ -1,2 +1,2 @@
-# An-Optical-SAR-Image-Registration-Method-using-Structural-Cognition-Prior
-Code for paper "An Optical–SAR Image Registration Method using Structural Cognition Prior"
+# Modality-Invariant Optical–SAR Image Registration using Hierarchical Structural Cognition Prior
+Code for paper "Modality-Invariant Optical–SAR Image Registration using Hierarchical Structural Cognition Prior"
