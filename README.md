@@ -11,7 +11,7 @@ Code for paper "Modality-Invariant Optical–SAR Image Registration using Hierar
 
 `pip install -r requirements.txt`
 
-## checkpoints
+## Weight
 - `checkpoints`：The original training weights for the **OSdataset** and **WHU-SEN-City** datasets are provided.
 
 ## Dataset
@@ -20,7 +20,7 @@ Code for paper "Modality-Invariant Optical–SAR Image Registration using Hierar
 - Download link for WHU-SEN-City：
 - The datasets should be placed separately in `VIS_SAR` under `Evaluation_OSdataset` and `Evaluation_WHU_SEN_City`.
 
-## train
+## Train
 - `train.py`：The script for training weights stores the trained weights and training logs in the `checkpoints` folder.
 
 ## Evaluation
