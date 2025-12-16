@@ -36,14 +36,16 @@ Code for paper "Modality-Invariant Optical–SAR Image Registration using Hierar
 - `match.py`：读取 `extract_feature.py` 输出的 `.mat` 文件，进行光 SAR 影像关键点匹配，并将可视化与指标结果保存至 `result` 文件夹
 - `reproj.py`：读取 `extract_feature.py` 输出的 `.mat` 文件，进行光 SAR 影像配准，并将可视化与指标结果保存至 `result` 文件夹
 
-## 结果
+## 配准示例
+
+### 光学-SAR影像
+![匹配结果1](assets/result1.png)
+![匹配结果2](assets/result2.png)
 
 ### 匹配可视化
 ![匹配结果1](assets/result1.png)
-![匹配结果2](assets/result2.png)
 
 ### 配准结果
 ![配准结果](assets/registration.png)
 
-### 指标
 	
