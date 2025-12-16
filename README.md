@@ -3,6 +3,17 @@ Code for paper "Modality-Invariant Optical–SAR Image Registration using Hierar
 
 # 项目说明
 
+## 环境与依赖
+
+### Python 版本
+- 建议 Python `3.8+`
+
+### 依赖安装
+确保仓库根目录下已有 `requirements.txt`，然后执行：
+
+```bash
+pip install -r requirements.txt
+
 ## checkpoints
 - `checkpoints`：提供了在 **OSdataset** 和 **WHU-SEN-City** 数据集下的原始训练权重。
 
