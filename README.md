@@ -21,7 +21,7 @@ Code for paper "Modality-Invariant Optical–SAR Image Registration using Hierar
 - The datasets should be placed separately in `VIS_SAR` under `Evaluation_OSdataset` and `Evaluation_WHU_SEN_City`.
 
 ## Train
-- `train.py`：The script for training weights stores the trained weights and training logs in the `checkpoints` folder.
+- `train.py`：Scripts for model training. Trained weights and training logs will be stored in the `checkpoints` folder.
 
 ## Evaluation
 - `Evaluation_OSdataset / Evaluation_WHU_SEN_City`：Contains evaluation files for two separate datasets, enabling:
