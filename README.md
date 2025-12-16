@@ -39,6 +39,12 @@ Code for paper "Modality-Invariant Optical–SAR Image Registration using Hierar
 ## 配准示例
 
 ### 光学-SAR影像
+
+<p>
+  <img src="fig/SAR.png" width="360" />
+  <img src="fig/VIS.png" width="360" />
+</p>
+
 ![SAR](fig/SAR.png)
 ![VIS](fig/VIS.png)
 
