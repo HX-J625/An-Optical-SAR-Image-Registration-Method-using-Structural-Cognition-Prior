@@ -17,7 +17,7 @@ Code for paper "Modality-Invariant Optical–SAR Image Registration using Hierar
 ## Dataset
 - Two public datasets, **OSdataset** and **WHU_SEN_City**, were used for experimentation, with image dimensions of **512×512**.
 - [OSdataset Download](https://pan.baidu.com/s/1QW1mB8Sx-FaLsYaxMaj3ig?pwd=wjvq)
-- [WHU-SEN-City Download](https://pan.baidu.com/s/1rYbO6zRv60ss8DzLViW3aQ?pwd=suuw)
+- [WHU_SEN_City Download](https://pan.baidu.com/s/1rYbO6zRv60ss8DzLViW3aQ?pwd=suuw)
 - The datasets should be placed separately in `VIS_SAR` under `Evaluation_OSdataset` and `Evaluation_WHU_SEN_City`.
 
 ## Train
