@@ -15,7 +15,7 @@ Code for paper "Modality-Invariant Optical–SAR Image Registration using Hierar
 - `checkpoints`：The original training weights for the **OSdataset** and **WHU-SEN-City** datasets are provided.
 
 ## Dataset
-- The datasets used in the experiments are **OSdataset** and **WHU-SEN-City**, with image dimensions of **512×512**.
+- Two public datasets, **OSdataset** and **WHU-SEN-City**, were used for experimentation, with image dimensions of **512×512**..
 - Download link for OSdataset：
 - Download link for WHU-SEN-City：
 - The datasets should be placed separately in `VIS_SAR` under `Evaluation_OSdataset` and `Evaluation_WHU_SEN_City`.
